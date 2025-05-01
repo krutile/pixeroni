@@ -1,0 +1,18 @@
+# replicate.yaml
+cog_version: "0.7.2"
+predict: "predict.py:Predictor"
+python_version: "3.10"
+gpu: true
+
+# Welche Python-Abhängigkeiten installiert werden
+dependencies:
+  - torch
+  - torchvision
+  - diffusers
+  - transformers
+  - accelerate
+  - xformers
+  - controlnet-aux
+  - safetensors
+  - pillow
+  - cog
